@@ -440,12 +440,64 @@
 
     <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
+      <div class="modal modal-content">
         <button class="modal-btn flex-center" type="button" data-modal-close>
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+
+        <h2 class="modal-h">Leave your contacts and we will call you back</h2>
+        <form class="modal-form">
+          <label class="contact-label">
+            Name
+            <input class="contact-input" type="text" name="contact_name" />
+            <svg class="contact-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </label>
+          <label class="contact-label">
+            Phone
+            <input class="contact-input" type="tel" name="contact_tel" />
+            <svg class="contact-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </label>
+          <label class="contact-label">
+            Email
+            <input class="contact-input" type="email" name="contact_email" />
+            <svg class="contact-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </label>
+          <label class="contact-label">
+            Comment
+            <textarea
+              class="contact-comment-text"
+              name="contact_comment_name"
+              id="contact_comment_id"
+              placeholder="Text input"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+          <div class="contact-policy">
+            <input
+              class="contact-policy-input"
+              type="checkbox"
+              name="contact_policy_input"
+              value="accept_privacy"
+              id="accept_privacy"
+            />
+            <label class="contact-policy-label" for="accept_privacy">
+              I accept the terms and conditions of the
+              <span class="privacy-policy">Privacy Policy</span>
+            </label>
+          </div>
+          <button class="modal-submit-btn" type="submit">
+            <span class="modal-submit-btn-text">Sent</span>
+          </button>
+        </form>
       </div>
     </div>
 

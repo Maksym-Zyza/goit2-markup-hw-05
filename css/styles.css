@@ -288,6 +288,115 @@ img {
 .modal-btn:focus .modal-btn-icon {
   fill: var(--white-background);
 }
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+.modal-h {
+  margin-top: 48px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: var(--dark);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+.modal-content .contact-label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  gap: 2px;
+  color: var(--sab-text);
+  font-family: var(--primary-font);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+}
+.modal-content .contact-input {
+  padding-left: 38px;
+  width: 360px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid var(--sab-text);
+}
+.contact-label:hover .contact-icon,
+.contact-label:focus .contact-icon {
+  fill: var(--primary-brand);
+}
+.contact-label:hover .contact-input,
+.contact-label:focus .contact-input {
+  border: 1px solid var(--primary-brand);
+}
+.contact-icon {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  fill: var(--dark);
+}
+.modal-content textarea {
+  padding: 8px 16px;
+  width: 360px;
+  height: 120px;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid var(--sab-text);
+}
+.modal-content textarea:hover,
+.modal-content textarea:focus {
+  border: 1px solid var(--primary-brand);
+}
+.contact-policy {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.contact-policy input {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  stroke-width: 1px;
+  stroke: var(--sab-text);
+}
+.contact-policy-label {
+  color: var(--sab-text);
+  font-family: var(--primary-font);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+}
+.privacy-policy {
+  color: var(--primary-brand);
+  line-height: 16px;
+}
+.modal-submit-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 24px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  background: var(--primary-brand);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.modal-submit-btn-text {
+  display: inline-block;
+  width: 105px;
+  text-align: center;
+  color: var(--white-background);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
 
 /* Section 2 - Properties  */
 .section-prop {
