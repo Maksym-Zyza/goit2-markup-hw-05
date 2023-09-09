@@ -317,6 +317,7 @@ img {
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 0.48px;
+  transition: border var(--tran-fast), fill var(--tran-fast);
 }
 .modal-content .contact-input {
   padding-left: 38px;
