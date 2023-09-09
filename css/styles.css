@@ -709,3 +709,39 @@ img {
 .footer-link:focus {
   background-color: var(--success);
 }
+.footer-form-block {
+  margin-left: 80px;
+}
+.footer-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-email {
+  width: 264px;
+  padding: 8px 16px;
+  height: 40px;
+  color: var(--white-background);
+  background-color: var(--dark);
+  border-radius: 4px;
+  border: 1px solid var(--white-background);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.footer-email::placeholder {
+  color: var(--white-background);
+}
+.footer-btn {
+  display: inline-flex;
+  margin-left: 24px;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: none;
+  border-radius: 4px;
+  color: var(--white-background);
+  background: var(--primary-brand);
+}
+.icon-send {
+  fill: var(--white-background);
+}
