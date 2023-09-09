@@ -718,10 +718,16 @@ img {
   flex-direction: row;
   align-items: center;
 }
+.footer-form-label {
+  gap: 24px;
+}
 .footer-email {
   width: 264px;
-  padding: 8px 16px;
+  padding-left: 16px;
   height: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white-background);
   background-color: var(--dark);
   border-radius: 4px;
@@ -733,10 +739,14 @@ img {
 }
 .footer-btn {
   display: inline-flex;
-  margin-left: 24px;
-  padding: 8px 24px;
   justify-content: center;
   align-items: center;
+  margin-left: 24px;
+  padding: 8px 24px;
+  min-width: 165px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   gap: 16px;
   border: none;
   border-radius: 4px;
@@ -744,5 +754,6 @@ img {
   background: var(--primary-brand);
 }
 .icon-send {
+  margin-left: 16px;
   fill: var(--white-background);
 }
