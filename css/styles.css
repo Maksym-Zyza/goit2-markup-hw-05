@@ -351,6 +351,14 @@ img {
 .input-box:focus .contact-input {
   border-color: var(--primary-brand);
 }
+.contact-input-box:hover,
+.contact-input-box:focus {
+  border-color: var(--primary-brand);
+}
+.contact-input-box:hover .contact-icon,
+.contact-input-box:focus .contact-icon {
+  fill: var(--primary-brand);
+}
 .textarea-box {
   margin-bottom: 16px;
 }
