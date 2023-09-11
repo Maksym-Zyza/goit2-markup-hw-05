@@ -374,6 +374,7 @@ img {
 .modal-content textarea:hover,
 .modal-content textarea:focus {
   border: 1px solid var(--primary-brand);
+  fill: var(--primary-brand);
 }
 .contact-policy {
   display: flex;
@@ -409,7 +410,7 @@ img {
   transition: background-color var(--tran-fast), border var(--tran-fast),
     fill var(--tran-fast);
 }
-.custom-checkbox:checked .custom-checkbox-icon {
+.contact-policy-input:checked ~ .custom-checkbox {
   background-color: var(--pressed-state);
   fill: var(--light);
   border: none;
@@ -440,12 +441,6 @@ img {
   display: inline-block;
   width: 105px;
   text-align: center;
-  /* color: var(--white-background);
-  font-family: var(--primary-font);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em; */
 }
 
 /* Section 2 - Properties  */
