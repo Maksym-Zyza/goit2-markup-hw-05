@@ -70,5 +70,8 @@
      <symbol id="icon-send" viewBox="0 0 32 32">
       <path d="m32 2.667-32 15 10.227 3.156L26 8.5 14.002 21.988l.01.003-.012-.003v7.345l5.735-5.576L27 25.999l5-23.333z"/>
     </symbol>
+    <symbol id="icon_check" viewBox="0 0 34 32">
+      <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4267" d="M8.442 16.538l-0.147-0.141-0.147 0.139-2.057 1.95 0.162 0.156 7.605 7.253 0.147-0.141 16.171-15.426-0.162-0.154-2.029-1.935-0.147 0.141-13.98 13.325-5.417-5.167z"></path>
+    </symbol>
   </defs>
 </svg>
