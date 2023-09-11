@@ -351,12 +351,10 @@ img {
 .input-box:focus .contact-input {
   border-color: var(--primary-brand);
 }
-.contact-input-box:hover,
-.contact-input-box:focus {
+.contact-input:focus {
   border-color: var(--primary-brand);
 }
-.contact-input-box:hover .contact-icon,
-.contact-input-box:focus .contact-icon {
+.contact-input:focus ~ .contact-icon {
   fill: var(--primary-brand);
 }
 .textarea-box {
