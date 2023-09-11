@@ -409,7 +409,7 @@ img {
   transition: background-color var(--tran-fast), border var(--tran-fast),
     fill var(--tran-fast);
 }
-.custom-checkbox:checked .custom-checkbox-icon {
+.contact-policy-input:checked ~ .contact-policy-label > .custom-checkbox {
   background-color: var(--pressed-state);
   fill: var(--light);
   border: none;
