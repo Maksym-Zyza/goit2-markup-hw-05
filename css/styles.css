@@ -350,7 +350,6 @@ img {
 .input-box:hover .contact-input,
 .input-box:focus .contact-input {
   border-color: var(--primary-brand);
-  fill: var(--primary-brand);
 }
 .textarea-box {
   margin-bottom: 16px;
@@ -381,13 +380,6 @@ img {
   margin-top: 16px;
   margin-bottom: 24px;
 }
-/* .contact-policy input {
-  margin-right: 8px;
-  width: 16px;
-  height: 16px;
-  stroke-width: 1px;
-  stroke: var(--sab-text);
-} */
 .contact-policy-label {
   color: var(--sab-text);
   font-family: var(--primary-font);
@@ -440,12 +432,6 @@ img {
   display: inline-block;
   width: 105px;
   text-align: center;
-  /* color: var(--white-background);
-  font-family: var(--primary-font);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em; */
 }
 
 /* Section 2 - Properties  */
@@ -768,9 +754,6 @@ img {
   align-items: center;
   gap: 24px;
 }
-/* .footer-form-label {
-  gap: 24px;
-} */
 .footer-email {
   width: 264px;
   padding-left: 16px;
